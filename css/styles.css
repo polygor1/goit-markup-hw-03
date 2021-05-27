@@ -39,12 +39,12 @@ a {
 .conteiner {
   width: 1200px;
   margin: 0 auto;
-  display: flex;
+  /* display: flex; */
 }
 .header {
   padding: 25px 0 24px 0;
 }
-.header .container {
+.header .conteiner {
   display: flex;
   align-items: center;
 }
@@ -119,14 +119,24 @@ body {
   margin-right: 50px;
 }
 
-h1 {
+.hero-title {
+  color: var(--face-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+/* h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   letter-spacing: 0.06em;
   color: var(--face-color);
-}
+} */
 h2 {
   font-style: normal;
   font-size: 36px;
@@ -184,6 +194,11 @@ ul {
 .current {
   color: var(--touch-color);
 }
+.btn {
+  display: flex;
+  width: 200px;
+}
+
 .sign-link {
   cursor: pointer;
   font-family: inherit;
@@ -193,8 +208,9 @@ ul {
   letter-spacing: 0.06em;
   color: var(--face-color);
   background-color: var(--touch-color);
+  /* text-align: center; */
   border: none;
-  /* display: block; */
+  /* display: flex; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   /* margin: 0 auto 106px; */
@@ -206,13 +222,16 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
 
-.faceScreen {
+.hero {
   background-color: var(--background-face-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--page-color);
+}
+.hero .conteiner {
+  padding-top: 200px;
 }
 .features {
   font-size: 14px;
