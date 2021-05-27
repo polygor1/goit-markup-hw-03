@@ -1,5 +1,8 @@
 /* VARIABLES */
 :root {
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  --logo-color: #2196f3;
   --touch-color: #2196f3;
   --filter-color: #f5f4fa;
   --page-color: #ffffff;
@@ -10,18 +13,116 @@
   --footer-color: #ffffff;
   --background-face-color: #2f303a;
   --background-footer-color: #2f303a;
-  --main-font: 'Roboto', sans-serif;
-  --logo-font: 'Raleway', sans-serif;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
+img {
+  display: block;
+}
 a {
   color: inherit;
 }
+
+.list {
+  list-style: none;
+}
+
+/* .link {
+  text-decoration: none;
+} */
+
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.header {
+  padding: 25px 0 24px 0;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header .eaddress {
+  margin-left: auto;
+  align-items: center;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  background-color: var(--page-color);
+  list-style: none;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  display: flex;
+}
+.logoweb {
+  color: var(--logo-color);
+}
+
+.address {
+  margin-right: 50px;
+}
+
+.nav-list {
+  display: flex;
+}
+.eadress {
+  color: var(--regular-color);
+  display: flex;
+}
+
+.eadr-tel {
+  margin-left: 50px;
+}
+.eadr-mail {
+  margin-left: 331px;
+  align-items: center;
+}
+
+.navigation {
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+  /* margin-top: 1px; */
+}
+.navigation,
+.eadress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+}
+
+.nav-list-str:hover,
+.nav-list-str:focus,
+.eadr-mail:hover,
+.eadr-mail:focus,
+.eadr-tel:hover,
+.eadr-tel:focus {
+  color: var(--touch-color);
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 h1 {
   font-style: normal;
   font-weight: 900;
@@ -59,17 +160,7 @@ ul {
   /* убрали маркеры у списка */
   list-style: none;
 }
-body {
-  font-family: var(--main-font);
-  font-style: normal;
-  background-color: var(--page-color);
-  list-style: none;
-}
-.container {
-  width: 1600px;
-  margin: 0 auto;
-  text-align: center;
-}
+
 .features-text {
   font-size: 14px;
   line-height: 1.71;
@@ -94,7 +185,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--regular-color);
 }
-.focus-page {
+.current {
   color: var(--touch-color);
 }
 .sign-link {
@@ -118,56 +209,7 @@ body {
   background-color: var(--touch-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
-.panel-buttons button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-  background-color: var(--filter-color);
-  padding: 6px 22px;
-  border: none;
-  border-radius: 4px;
-  text-align: center;
-}
-.panel-buttons button:hover,
-.panel-buttons button:focus {
-  cursor: pointer;
-  background-color: var(--touch-color);
-  color: var(--face-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.logo {
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923;
-  letter-spacing: 0.03em;
-}
-.logoweb {
-  color: #2196f3;
-}
-.navigation,
-.eadress {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428;
-  letter-spacing: 0.02em;
-}
-.navigation {
-  color: var(--title-color);
-}
-.navigation :hover,
-.navigation :focus,
-.eadress :hover,
-.eadress :focus {
-  color: var(--touch-color);
-}
-.eadress {
-  color: var(--regular-color);
-}
+
 .faceScreen {
   background-color: var(--background-face-color);
   font-weight: 900;
@@ -196,11 +238,36 @@ body {
 .metier {
   color: var(--regular-color);
 }
+
+.panel-buttons {
+}
+.panel-buttons button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--filter-color);
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.panel-buttons button:hover,
+.panel-buttons button:focus {
+  cursor: pointer;
+  background-color: var(--touch-color);
+  color: var(--face-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 footer {
   background-color: var(--background-footer-color);
   color: var(--footer-color);
 }
-address {
+
+.address {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
