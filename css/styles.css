@@ -72,27 +72,23 @@ body {
 .logoweb {
   color: var(--logo-color);
 }
-
 .address {
   margin-right: 50px;
 }
-
 .nav-list {
   display: flex;
 }
 .eadress {
   color: var(--regular-color);
   display: flex;
+  align-items: center;
 }
-
 .eadr-tel {
   margin-left: 50px;
 }
 .eadr-mail {
   margin-left: 331px;
-  align-items: center;
 }
-
 .navigation {
   color: var(--title-color);
   display: flex;
