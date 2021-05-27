@@ -1,0 +1,218 @@
+/* VARIABLES */
+:root {
+  --touch-color: #2196f3;
+  --filter-color: #f5f4fa;
+  --page-color: #ffffff;
+  --title-color: #212121;
+  --regular-color: #757575;
+  --border-color: #ececec;
+  --face-color: #ffffff;
+  --footer-color: #ffffff;
+  --background-face-color: #2f303a;
+  --background-footer-color: #2f303a;
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  color: var(--face-color);
+}
+h2 {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.666;
+  letter-spacing: 0.03em;
+}
+h3 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.134;
+  letter-spacing: 0.03em;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1,
+h3 {
+  text-transform: uppercase;
+}
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--title-color);
+}
+ul {
+  /* убрали маркеры у списка */
+  list-style: none;
+}
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  background-color: var(--page-color);
+  list-style: none;
+}
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.portfolio {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.portfolio h3 {
+  text-transform: none;
+}
+.portfolio p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--regular-color);
+}
+.focus-page {
+  color: var(--touch-color);
+}
+.sign-link {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--face-color);
+  background-color: var(--touch-color);
+  padding: 10px 32px;
+  border: none;
+  /* display: block; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  /* margin: 0 auto 106px; */
+  padding: 10px 32px;
+}
+.sign-link :hover,
+.sign-link :focus {
+  background-color: var(--touch-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+}
+.panel-buttons button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--filter-color);
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+.panel-buttons button:hover,
+.panel-buttons button:focus {
+  cursor: pointer;
+  background-color: var(--touch-color);
+  color: var(--face-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+}
+.logoweb {
+  color: #2196f3;
+}
+.navigation,
+.eadress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+}
+.navigation {
+  color: var(--title-color);
+}
+.navigation :hover,
+.navigation :focus,
+.eadress :hover,
+.eadress :focus {
+  color: var(--touch-color);
+}
+.eadress {
+  color: var(--regular-color);
+}
+.faceScreen {
+  background-color: var(--background-face-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--page-color);
+}
+.features {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--regular-color);
+}
+.names,
+.metier {
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.names {
+  font-weight: 500;
+  color: var(--title-color);
+}
+.metier {
+  color: var(--regular-color);
+}
+footer {
+  background-color: var(--background-footer-color);
+  color: var(--footer-color);
+}
+address {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: var(--footer-color); */
+}
+address a {
+  color: var(--regular-color);
+}
+address a:hover,
+address a:focus {
+  color: var(--touch-color);
+}
