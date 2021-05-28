@@ -253,7 +253,6 @@ h3 {
   margin-bottom: 9px;
 }
 .footer-eaddress {
-  /* text-decoration: none; */
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -291,7 +290,9 @@ h3 {
 }
 
 .panel-buttons {
+  /*  */
 }
+
 .panel-buttons button {
   font-family: inherit;
   font-weight: 500;
