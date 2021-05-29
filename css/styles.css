@@ -47,8 +47,16 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+h4 {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 700;
   color: var(--title-color);
 }
@@ -93,12 +101,9 @@ h3 {
 .logoweb {
   color: var(--logo-color);
 }
-
 .navigation {
   color: var(--title-color);
-  width: 294px;
 }
-
 .navigation,
 .eadress {
   font-weight: 500;
@@ -289,8 +294,10 @@ h3 {
 }
 
 /* === PORTFOLIO === */
-
-/* ---SEARSH PANEL-- */
+.main {
+  margin-bottom: 94px;
+}
+/* ---SEARSH BAR-- */
 
 .searsh-bar {
   display: flex;
@@ -327,10 +334,7 @@ h3 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-.portfolio h2 {
-  font-size: 0px;
-}
+/* ---PORTFOLIO--- */
 
 .portfolio {
   font-weight: 700;
@@ -340,26 +344,33 @@ h3 {
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
+.portfolio h2 {
+  font-size: 0px;
+}
+.portfolio .content {
+  margin-top: 34px;
+}
 .portfolio-list {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
 }
-.content {
-  margin-top: 34px;
-}
 .portfolio-card {
   display: flex;
   flex-flow: column;
+  outline: 1px solid #eee;
+  margin-top: 30px;
 }
-.prtfl-text {
-  margin: 20px 24px;
+.portfolio-card:nth-child(1),
+.portfolio-card:nth-child(2),
+.portfolio-card:nth-child(3) {
+  margin-top: 0px;
 }
 
-.prtfl-text h3 {
-  text-transform: none;
+.portfolio-text {
+  margin: 20px 24px;
 }
-.prtfl-text p {
+.portfolio-text p {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
