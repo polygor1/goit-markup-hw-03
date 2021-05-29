@@ -26,7 +26,6 @@
 img {
   display: block;
 }
-
 body {
   font-family: var(--main-font);
   font-style: normal;
@@ -60,7 +59,6 @@ h4 {
   font-weight: 700;
   color: var(--title-color);
 }
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -96,7 +94,6 @@ h4 {
   line-height: 1.192;
   letter-spacing: 0.03em;
   margin-right: 93px;
-  /* display: flex; */
 }
 .logoweb {
   color: var(--logo-color);
@@ -128,7 +125,6 @@ h4 {
 .eadr-tel:focus {
   color: var(--touch-color);
 }
-
 .eadress {
   color: var(--regular-color);
   width: 1200px;
@@ -185,6 +181,7 @@ h4 {
 }
 
 /* ---FEATURES--- */
+
 /* .features {} */
 
 .features-list {
@@ -274,7 +271,6 @@ h4 {
   letter-spacing: 0.03em;
   margin-top: 20px;
 }
-
 .footer-eaddress {
   color: var(--footer-eadr-color);
   display: flex;
@@ -287,23 +283,23 @@ h4 {
   margin-top: 9px;
   height: 21px;
 }
-
 .footer-eaddress :hover,
 .footer-eaddress :focus {
   color: var(--touch-color);
 }
 
 /* === PORTFOLIO === */
+
 .main {
   margin-bottom: 94px;
 }
+
 /* ---SEARSH BAR-- */
 
 .searsh-bar {
   display: flex;
   flex-direction: row;
 }
-
 .bar-buttons {
   display: flex;
   justify-content: center;
@@ -325,7 +321,6 @@ h4 {
 .srsh-btn:not(last-child) {
   margin-right: 9px;
 }
-
 .srsh-btn:hover,
 .srsh-btn:focus {
   cursor: pointer;
@@ -334,6 +329,7 @@ h4 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 /* ---PORTFOLIO--- */
 
 .portfolio {
@@ -366,7 +362,6 @@ h4 {
 .portfolio-card:nth-child(3) {
   margin-top: 0px;
 }
-
 .portfolio-text {
   margin: 20px 24px;
 }
