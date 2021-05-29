@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -25,10 +26,10 @@
             <nav class="navigation">
                 <ul class="nav-list">
                     <li class="nav-list-item">
-                        <a class="nav-list-str" href="./index.html">Студия</a>
+                        <a class="nav-list-str current" href="./index.html">Студия</a>
                     </li>
                     <li class="nav-list-item">
-                        <a class="nav-list-str current" href="./portfolio.html">Портфолио</a>
+                        <a class="nav-list-str" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="nav-list-item">
                         <a class="nav-list-str" href="">Контакты</a>
@@ -36,42 +37,43 @@
                 </ul>
             </nav>
             <!-- e-Adress -->
-            <div class="eadress container">
+            <div class="eadress">
                 <a class="eadr-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 <a class="eadr-tel" href="tel:+380961111111">+38 096 111 11 11</a>
             </div>
         </div>
     </header>
-
-    <main>
-        <!-- Main content -->
-        <!-- Navigation -->
-        <section>
-            <div class="conteiner">
+    <!-- Main content -->
+    <main class="container">
+        <!-- Seek -->
+        <section class="searsh-panel">
+            <div class="container">
                 <ul class="panel-buttons">
                     <li>
-                        <button type="button">Всё</button>
+                        <button class="srsh-btn" type="button">Всё</button>
                     </li>
                     <li>
-                        <button type="button">Веб-сайты</button>
+                        <button class="srsh-btn" type="button">Веб-сайты</button>
                     </li>
                     <li>
-                        <button type="button">Приложения</button>
+                        <button class="srsh-btn" type="button">Приложения</button>
                     </li>
                     <li>
-                        <button type="button">Дизайн</button>
+                        <button class="srsh-btn" type="button">Дизайн</button>
                     </li>
                     <li>
-                        <button type="button">Маркетинг</button>
+                        <button class="srsh-btn" type="button">Маркетинг</button>
                     </li>
                 </ul>
             </div>
+        </section>
+        <section>
             <!-- Portfolio -->
-            <div class="conteiner">
+            <div class="portfolio">
                 <!-- <h2>
                     Портфолио
                 </h2> -->
-                <ul class="portfolio">
+                <ul class="container">
                     <li>
                         <img src="./images/pfimg1q.jpg" alt="Технокряк" width=370 height=294>
                         <h3>Технокряк</h3>
