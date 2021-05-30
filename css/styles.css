@@ -60,23 +60,15 @@ h4 {
   font-weight: 700;
   color: var(--title-color);
 }
-
 .section {
 padding: 94px 0;
-
-
 }
-
-
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* flex-direction: column; */
-  /* padding-top: 94px; */
 }
-
 .current {
   color: var(--touch-color);
 }
@@ -178,7 +170,6 @@ padding: 94px 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 30px;
-  /* margin-bottom: 200px; */
   padding: 10px 32px;
 }
 .sign-link :hover,
@@ -220,8 +211,6 @@ padding: 94px 0;
 
 .team {
   background-color: var(--background-team-color);
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
 .team-list {
   display: flex;
@@ -233,7 +222,6 @@ padding: 94px 0;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  /* margin-bottom: 94px; */
 }
 .team-text {
   padding-top: 30px;
@@ -296,16 +284,7 @@ padding: 94px 0;
 
 /* === PORTFOLIO === */
 
-.main {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /* ---SEARSH BAR-- */
-
-.portfolio-main h2{
-  font-size: 0px;
-}
 
 .bar-buttons {
   display: flex;
@@ -388,3 +367,5 @@ padding: 94px 0;
   color: var(--regular-color);
   margin-top: 4px;
 }
+/* THE END */
+/* Поки що... */
