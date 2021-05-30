@@ -141,6 +141,7 @@ h4 {
 .hero {
   background-color: var(--background-face-color);
   color: var(--page-color);
+  padding: 200px 0 0;
 }
 .hero .container {
   display: flex;
@@ -155,7 +156,8 @@ h4 {
   color: var(--face-color);
   text-align: center;
   text-transform: uppercase;
-  margin-block-start: 200px;
+  /* margin-block-start: 200px; */
+  /* Nu Html Checker-у це несподобалось ??? */
 }
 .sign-link {
   cursor: pointer;
@@ -300,6 +302,9 @@ h4 {
 .searsh-bar {
   display: flex;
   flex-direction: row;
+}
+.searsh-bar h4{
+  font-size: 0px;
 }
 .bar-buttons {
   display: flex;
