@@ -61,7 +61,7 @@ h4 {
   color: var(--title-color);
 }
 .section {
-padding: 94px 0;
+  padding: 94px 0;
 }
 .container {
   width: 1200px;
@@ -143,7 +143,7 @@ padding: 94px 0;
 .hero .container {
   display: flex;
   margin-top: 0px;
-  flex-direction: column; 
+  flex-direction: column;
 }
 .titul {
   font-style: normal;
@@ -201,7 +201,7 @@ padding: 94px 0;
 
 /* ---INSIDE--- */
 
-.inside{
+.inside {
   padding-top: 0;
 }
 
@@ -294,7 +294,7 @@ padding: 94px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 16px;
+  /* padding-bottom: 0px; */
 }
 .srsh-btn {
   font-family: inherit;
@@ -333,7 +333,7 @@ padding: 94px 0;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
-  margin-top: 34px;
+  margin-top: 50px;
 }
 .portfolio .content {
   margin-top: 34px;
@@ -364,7 +364,7 @@ padding: 94px 0;
   margin-right: 0px;
 }
 .portfolio-text {
-  padding: 20px 24px 19px ;
+  padding: 20px 24px 19px;
   border-left: 1px solid var(--prtf-border-color);
   border-right: 1px solid var(--prtf-border-color);
   border-bottom: 1px solid var(--prtf-border-color);
@@ -377,7 +377,6 @@ padding: 94px 0;
   letter-spacing: 0.03em;
   color: var(--regular-color);
   margin-top: 4px;
-
 }
 /* THE END */
 /* Поки що... */
